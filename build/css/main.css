@@ -6946,9 +6946,10 @@ h1, h2, h3, h4 {
       .btn_price {
         font-size: 0.8rem; } }
   .btn_callback {
-    font-size: 0.8vw; }
+    }
     @media (max-width: 1440px) {
       .btn_callback {
+        padding: 7px 12px;
         font-size: 1rem; } }
     @media (max-width: 575px) {
       .btn_callback {
@@ -7041,8 +7042,13 @@ h1, h2, h3, h4 {
     max-height: 215px; }
     @media (max-width: 1440px) {
       .header__logo img {
-        max-height: 185px; } }
-
+        max-height: 115px; } }
+.header__contacts {
+  padding-top: 10px;
+}
+.header__contacts .phone {
+  margin-bottom: 5px;
+}
 @media (max-width: 767px) {
   .header__contacts {
     text-align: right; } }
